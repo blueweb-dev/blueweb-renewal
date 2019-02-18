@@ -15,6 +15,7 @@ module.exports = {
     ],
     script: [
       { src: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js', body: true },
+      { src: 'https://www.google.com/recaptcha/api.js', body: true },
       { src: '/js/jquery.js', body: true },
       { src: '/js/uikit.min.js', body: true },
       { src: '/js/components/slider.js', body: true },

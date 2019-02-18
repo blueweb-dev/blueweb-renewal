@@ -2,6 +2,21 @@
   <div>
     <!-- Page Header -->
     <section id="idz-header-inner">
+      <!-- https://s3.envato.com/h264-video-previews/297fc11a-f7fa-4128-bd08-afce4ca59c99/21291765.mp4 -->
+      <!-- https://s3.envato.com/files/e3646acd-37e4-4e52-b664-3e85b988d3c1/video_preview_h264.mp4 -->
+      <video
+        loop
+        muted
+        playsinline
+        autoplay
+        uk-video="autoplay: inview"
+        style="position:absolute;top:0;left:0;width:100%;"
+      >
+        <source
+          src="https://s3.envato.com/h264-video-previews/297fc11a-f7fa-4128-bd08-afce4ca59c99/21291765.mp4"
+          type="video/mp4"
+        >
+      </video>
       <div class="uk-container uk-container-center">
         <div class="idz-page-title idz-padding-medium">
           <div class="uk-grid">
@@ -74,7 +89,7 @@
               <li>
                 <div class="uk-panel uk-panel-box idz-panel center">
                   <h3 class="uk-panel-title bold idz-text-22px uk-margin-small-bottom">
-                    대량의, 또는 대형 서비스 고객사들을<br/>운용하는 웹에이전시
+                    대량의, 또는 대형 서비스 고객사들을<br>운용하는 웹에이전시
                   </h3>
                   <p class="uk-margin-remove">
                     Exceptem occaecat cupidatat non proident inculpali qui officia deserunt mollit anim laborum voluptatem accusantium doloremque.

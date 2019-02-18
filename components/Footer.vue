@@ -272,9 +272,11 @@
                     placeholder="비밀번호"
                   >
                 </div>
-                <label>
-                  <input type="checkbox">내 정보 기억
-                </label>
+                <div
+                  class="g-recaptcha"
+                  data-sitekey="6LeRs3IUAAAAANdbjoRAwYzFKr37EG9EhqC5yRN2"
+                  onfocus="this.blur();"
+                />
                 <a
                   href="client-area.html"
                   class="uk-button uk-button-large idz-button blue uk-width-large-1-1"

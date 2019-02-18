@@ -117,7 +117,7 @@
             </li>
             <li class="uk-parent">
               <a href="javascript:void(0);">
-                앱스
+                솔루션
               </a>
               <ul class="uk-nav-sub">
                 <li>
@@ -127,17 +127,7 @@
                 </li>
                 <li>
                   <a href="#">
-                    전자결제
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    OTP 2차 인증
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    쇼핑몰 통합 관리 (Playauto)
+                    전자결제 (PG)
                   </a>
                 </li>
               </ul>
@@ -171,9 +161,14 @@
             </li>
             <li class="uk-parent">
               <a href="javascript:void(0);">
-                DevOPS
+                개발지원
               </a>
               <ul class="uk-nav-sub">
+                <li>
+                  <a href="#">
+                    GITLAB
+                  </a>
+                </li>
                 <li>
                   <a href="#">
                     블루웹으로 이전
@@ -357,7 +352,7 @@
                                           </div>
                                           <h5>웹 취약성 점검 / 모의 해킹</h5>
                                           <p class="uk-nbfc">
-                                            글로벌 규모 해킹대회에 입상한 화이트 해커가 웹사이트 취약성 점검과 모의 해킹을 실시 해드립니다
+                                            글로벌 해킹대회에 입상한 전문가가 웹 취약성 점검과 모의 해킹을 실시
                                           </p>
                                         </a>
                                       </li>
@@ -368,7 +363,7 @@
                                     <ul class="uk-list uk-list-space idz-list-check">
                                       <li>
                                         <a href="#">
-                                          <i class="uk-icon-book" />OTP 2차 인증
+                                          OTP 2차 인증
                                         </a>
                                       </li>
                                     </ul>
@@ -440,6 +435,11 @@
                                 <ul class="uk-nav uk-nav-navbar">
                                   <li>
                                     <a href="#">
+                                      [PHP] 워드프레스 홈페이지
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#">
                                       [PHP] 제로보드 호스팅
                                     </a>
                                   </li>
@@ -450,37 +450,22 @@
                                   </li>
                                   <li>
                                     <a href="#">
-                                      [PHP] APM 호스팅
+                                      [Node.JS] NodeBB 호스팅
                                     </a>
                                   </li>
                                   <li>
                                     <a href="#">
-                                      [Node.JS] NodeBB + PostgreSQL 호스팅
+                                      [공유] 리눅스 PHP 호스팅
                                     </a>
                                   </li>
                                   <li>
                                     <a href="#">
-                                      ASP / .NET 호스팅
+                                      [공유] 윈도우즈 .NET 호스팅
                                     </a>
                                   </li>
                                   <li>
                                     <a href="#">
-                                      워드프레스 홈페이지 호스팅
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="#">
-                                      리눅스 공유 호스팅
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="#">
-                                      윈도우즈 공유 호스팅
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="#">
-                                      데이터베이스 공유 호스팅
+                                      [공유] 데이터베이스 호스팅
                                     </a>
                                   </li>
                                   <li>
@@ -493,16 +478,6 @@
                                       동영상 스트리밍 호스팅
                                     </a>
                                   </li>
-                                  <li>
-                                    <a href="#">
-                                      유지보수 패키지
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="#">
-                                      홈페이지 제작의뢰
-                                    </a>
-                                  </li>
                                 </ul>
                               </div>
                             </li>
@@ -511,7 +486,7 @@
                               data-uk-dropdown
                             >
                               <a href="javascript:void(0);">
-                                앱스
+                                솔루션
                               </a>
                               <div class="uk-dropdown uk-dropdown-navbar">
                                 <ul class="uk-nav uk-nav-navbar">
@@ -522,12 +497,17 @@
                                   </li>
                                   <li>
                                     <a href="#">
-                                      전자결제
+                                      전자결제 (PG)
                                     </a>
                                   </li>
                                   <li>
                                     <a href="#">
-                                      쇼핑몰 통합 관리 (Playauto)
+                                      유지보수 패키지
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href="#">
+                                      홈페이지 제작
                                     </a>
                                   </li>
                                 </ul>
@@ -549,12 +529,12 @@
                                   </li>
                                   <li>
                                     <a href="#">
-                                      전용서버 패키지
+                                      웹호스팅 패키지
                                     </a>
                                   </li>
                                   <li>
                                     <a href="#">
-                                      웹호스팅 패키지
+                                      전용서버 패키지
                                     </a>
                                   </li>
                                 </ul>
@@ -570,10 +550,15 @@
                               data-uk-dropdown
                             >
                               <a href="javascript:void(0);">
-                                DevOPS
+                                  개발지원
                               </a>
                               <div class="uk-dropdown uk-dropdown-navbar">
                                 <ul class="uk-nav uk-nav-navbar">
+                                  <li>
+                                    <a href="#">
+                                      GITLAB
+                                    </a>
+                                  </li>
                                   <li>
                                     <a href="#">
                                       블루웹으로 이전
@@ -609,7 +594,8 @@
                         data-uk-modal
                         class="uk-button uk-button-large idz-button red xlarge uppercase"
                       >
-                        <i class="uk-icon-user" />서비스관리
+                          <!--<i class="uk-icon-user" />-->
+                        서비스관리
                       </a>
                     </div>
                   </div>

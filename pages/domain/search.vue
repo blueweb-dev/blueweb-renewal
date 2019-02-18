@@ -88,9 +88,6 @@
             </form>
             <!-- domain search end -->
           </div>
-          <div class="uk-width-large-1-1">
-            <hr class="uk-margin-large-top">
-          </div>
           <div class="uk-width-large-1-1 uk-margin-large-top uk-margin-medium-bottom">
             <table class="uk-table uk-table-striped idz-domain-pricing">
               <thead>
@@ -417,7 +414,6 @@
 </template>
 
 <style scoped>
-#idz-header-inner { position: relative; }
 #domain-search-page { width: 100%; }
 #domain-search-page fieldset { position: relative;width: 100%!important; }
 #domain-search-page input[type=text] { border: 3px solid #4994cd; }
