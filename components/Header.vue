@@ -220,31 +220,11 @@
                 </form>
               </div>
               <div class="idz-domain-promo">
-                <ul class="uk-grid uk-grid-collapse uk-grid-width-large-1-4 uk-grid-width-medium-1-4  uk-grid-width-small-1-2 idz-promo-domain-list">
-                  <li>
-                    <img
-                      src="/images/sample/domain-logo/dot-com.png"
-                      alt="dot-com"
-                    >$9.90
-                  </li>
-                  <li>
-                    <img
-                      src="/images/sample/domain-logo/dot-net.png"
-                      alt="dot-net"
-                    >$9.90
-                  </li>
-                  <li>
-                    <img
-                      src="/images/sample/domain-logo/dot-org.png"
-                      alt="dot-org"
-                    >$11.50
-                  </li>
-                  <li>
-                    <img
-                      src="/images/sample/domain-logo/dot-online.png"
-                      alt="dot-online"
-                    >$12.50
-                  </li>
+                <ul class="uk-grid uk-grid-large uk-grid-with-medium-1-4 idz-header-contact">
+                  <li><i class="uk-icon-globe"></i>한국어</li>
+                  <li><i class="uk-icon-phone"></i>1588-2120</li>
+                  <li><i class="uk-icon-shopping-cart"></i>장바구니</li>
+                  <li><i class="uk-icon-user"></i>로그인</li>
                 </ul>
               </div>
             </div>
@@ -630,6 +610,7 @@
 .idz-search-domain-form input[type=text] {
     padding-left: 12px;border: 3px solid #4994cd; }
 #idz-header { height: inherit;padding-bottom: 0;padding-top: 20px; }
+.idz-header-contact { margin-top: 0; }
 .header-wrapper .uk-alert { margin: 0;border-radius: 0; }
 .idz-search-domain-form input[type=text] { font-size: 22px;font-weight: bold;
     color: #4994cd; }

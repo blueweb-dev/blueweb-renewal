@@ -8,7 +8,8 @@
     "dev": "nuxt start",
     "start": "nuxt build && nuxt start",
     "build": "nuxt build",
-    "precommit": "npm run lint",    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    "precommit": "npm run lint",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
     "axios": "^0.16.2",
