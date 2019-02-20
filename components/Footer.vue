@@ -205,7 +205,7 @@
         </div>
         <div class="uk-width-medium-2-3 uk-container-center uk-text-center">
           <p class="idz-footer-note idz-thin idz-text-22px uk-margin-remove">
-            블루웹은 지난 20년 동안 <span>800,000</span>여개의<br>웹사이트를 안정적으로 운영해오고 있습니다
+            블루웹은 지난 20년 간 <span>50만</span> 개의 웹사이트를 안정적으로 운영 해왔습니다
           </p>
           <p class="idz-site-copyright uk-margin-remove">
             Copyright &copy; 2019 Blueweb Inc.

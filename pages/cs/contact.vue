@@ -202,3 +202,9 @@
     </section>
   </div>
 </template>
+
+<style>
+#idz-header-contact {
+    background-image: url('https://image.shutterstock.com/z/stock-photo-server-room-center-exchanging-cyber-datas-and-connections-d-rendering-776325814.jpg');
+    background-position-y: center; }
+</style>
