@@ -6,7 +6,7 @@
       class="idz-padding"
     >
       <div class="uk-container uk-container-center">
-        <div class="uk-grid">
+        <div class="uk-grid" id="footer-grid-inner-wrapper">
           <!-- Footer Column 1 -->
           <div class="uk-width-large-1-5 uk-width-medium-1-5 uk-width-small-1-2">
             <div class="idz-footer-widget">
@@ -39,6 +39,11 @@
                     연락처
                   </nuxt-link>
                 </li>
+                <li>
+                  <nuxt-link to="/cs/contact">
+                    채용정보
+                  </nuxt-link>
+                </li>
               </ul>
             </div>
           </div>
@@ -48,32 +53,37 @@
           <div class="uk-width-large-1-5 uk-width-medium-1-5 uk-width-small-1-2">
             <div class="idz-footer-widget">
               <h3 class="uppercase idz-text-white">
-                고객지원
+                부가서비스
               </h3>
               <ul class="uk-list uk-list-space idz-footer-menu">
                 <li>
+                  <nuxt-link to="/cs/contact">
+                    파트너 프로그램 / 리셀러
+                  </nuxt-link>
+                </li>
+                <li>
                   <a href="#">
-                    Knowledge Center
+                    SEO / 온라인마케팅
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    Support Forum
+                    유지보수 패키지
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    API Documentation
+                    코참비즈
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    Support Home
+                    이비즈로 관리자
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    Developer Center
+                    블루웹 SMS
                   </a>
                 </li>
               </ul>
@@ -81,39 +91,7 @@
           </div>
           <!-- Footer Column 2 End -->
 
-          <!-- Footer Column 3 -->
-          <div class="uk-width-large-1-5 uk-width-medium-1-5 uk-width-small-1-2">
-            <div class="idz-footer-widget">
-              <h3 class="uppercase idz-text-white">
-                내서비스관리
-              </h3>
-              <ul class="uk-list uk-list-space idz-footer-menu">
-                <li>
-                  <a href="#">
-                    Billing Enquiry
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Order Look-Up
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Auto Renewal
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    Custom Services
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- Footer Column 3 End -->
-
-          <!-- Footer Column 4 (Social Profile Links) -->
+          <!-- Footer Column 3 (Social Profile Links) -->
           <div class="uk-width-large-1-5 uk-width-medium-1-5 uk-width-small-1-2">
             <div class="idz-footer-widget idz-footer-social">
               <ul class="uk-list">
@@ -137,78 +115,80 @@
               </ul>
             </div>
           </div>
-          <!-- Footer Column 4 (Social Profile Links) -->
+          <!-- Footer Column 3 (Social Profile Links) -->
 
-          <!-- Footer Column 5 () -->
+          <!-- Footer Column 4 (SNS) -->
           <div class="uk-width-large-1-5 uk-width-medium-1-5 uk-width-small-1-2">
+            <h3 class="uppercase idz-text-white">
+              SNS
+            </h3>
             <div
               class="uk-grid-small"
               uk-grid
             >
               <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                  <img src="http://i.011st.com/ex_cmt/R/678x0/1/75/0/0/JPEG/src/http://nabita.speedgabia.com/brand/schleich/detail/SL70570.jpg?20190115105705">
+                  <img src="http://farm4.static.flickr.com/3945/15485436268_846ccca178_q.jpg">
                 </div>
               </div>
               <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                  <img src="http://i.011st.com/ex_cmt/R/678x0/1/75/0/0/JPEG/src/http://nabita.speedgabia.com/brand/schleich/detail/SL70570.jpg?20190115105705">
+                  <img src="http://farm4.static.flickr.com/3945/15485436268_846ccca178_q.jpg">
                 </div>
               </div>
               <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                  <img src="http://i.011st.com/ex_cmt/R/678x0/1/75/0/0/JPEG/src/http://nabita.speedgabia.com/brand/schleich/detail/SL70570.jpg?20190115105705">
+                  <img src="http://farm4.static.flickr.com/3945/15485436268_846ccca178_q.jpg">
                 </div>
               </div>
               <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                  <img src="http://i.011st.com/ex_cmt/R/678x0/1/75/0/0/JPEG/src/http://nabita.speedgabia.com/brand/schleich/detail/SL70570.jpg?20190115105705">
+                  <img src="http://farm4.static.flickr.com/3945/15485436268_846ccca178_q.jpg">
                 </div>
               </div>
               <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                  <img src="http://i.011st.com/ex_cmt/R/678x0/1/75/0/0/JPEG/src/http://nabita.speedgabia.com/brand/schleich/detail/SL70570.jpg?20190115105705">
+                  <img src="http://farm4.static.flickr.com/3945/15485436268_846ccca178_q.jpg">
                 </div>
               </div>
               <div>
                 <div class="uk-card uk-card-default uk-card-body">
-                  <img src="http://i.011st.com/ex_cmt/R/678x0/1/75/0/0/JPEG/src/http://nabita.speedgabia.com/brand/schleich/detail/SL70570.jpg?20190115105705">
-                </div>
-              </div>
-              <div>
-                <div class="uk-card uk-card-default uk-card-body">
-                  <img src="http://i.011st.com/ex_cmt/R/678x0/1/75/0/0/JPEG/src/http://nabita.speedgabia.com/brand/schleich/detail/SL70570.jpg?20190115105705">
-                </div>
-              </div>
-              <div>
-                <div class="uk-card uk-card-default uk-card-body">
-                  <img src="http://i.011st.com/ex_cmt/R/678x0/1/75/0/0/JPEG/src/http://nabita.speedgabia.com/brand/schleich/detail/SL70570.jpg?20190115105705">
-                </div>
-              </div>
-              <div>
-                <div class="uk-card uk-card-default uk-card-body">
-                  <img src="http://i.011st.com/ex_cmt/R/678x0/1/75/0/0/JPEG/src/http://nabita.speedgabia.com/brand/schleich/detail/SL70570.jpg?20190115105705">
+                  <img src="http://farm4.static.flickr.com/3945/15485436268_846ccca178_q.jpg">
                 </div>
               </div>
             </div>
           </div>
+          <!-- Footer Column 4 (SNS) -->
+
+          <!-- Footer Column 5 (Corp) -->
+          <div class="uk-width-large-1-5 uk-width-medium-1-5 uk-width-small-1-2" id="footer-logo-wrapper">
+            <div>
+              <img
+                src="~assets/images/logo.png"
+                alt="logo"
+                class=""
+              >
+              <h2>1588-2120</h2>
+              <p>The 4th internet infrastructure provider<br>Copyright &copy; 2019 Blueweb Inc.</p>
+              <div class="partner-wrapper">
+                <img src="~assets/images/partners/digicert-verified.png">
+                <img src="~assets/images/partners/kisa-krnic.png">
+                <img src="~assets/images/partners/iscs.png">
+              </div>
+            </div>
+          </div>
+          <!-- Footer Column 5 (Corp) -->
         </div>
       </div>
-      <!-- Footer Column 4 (Social Profile Links) -->
 
       <!-- Footer Text -->
       <div class="uk-grid">
-        <div class="uk-width-medium-1-3 uk-container-center uk-text-center partner-wrapper">
-          <img src="~assets/images/partners/digicert-partner.png">
-          <img src="~assets/images/partners/kisa-krnic.png">
-          <img src="~assets/images/partners/iscs.png">
-        </div>
-        <div class="uk-width-medium-2-3 uk-container-center uk-text-center">
+        <div class="uk-width-1-1 uk-container-center"><!-- uk-text-center -->
           <p class="idz-footer-note idz-thin idz-text-22px uk-margin-remove">
             블루웹은 지난 20년 간 <span>50만</span> 개의 웹사이트를 안정적으로 운영 해왔습니다
           </p>
           <p class="idz-site-copyright uk-margin-remove">
-            Copyright &copy; 2019 Blueweb Inc.
+            ㈜블루웹 / 서울 성동구 성수일로8길 5 서울숲 SK V1 TOWER B동 3층 / 대표이사 : 김남진, 장봉근 / 사업자등록증번호 : 106-81-85951 / 통신판매업 신고번호 : 강남 3315호
           </p>
         </div>
       </div>
@@ -345,6 +325,13 @@
 
 <style>
 .uk-grid-small>* { display: inline-block; }
+#idz-footer { padding: 40px 0; }
 #idz-footer .uk-grid-small img { width: 72px; height:72px;margin-bottom: 14px; }
-#idz-footer .partner-wrapper img { height:60px;margin-right: 5px; }
+#idz-footer .partner-wrapper img { height:46px;margin-right: 3px; }
+#footer-grid-inner-wrapper { position: relative; }
+#footer-logo-wrapper { position: absolute;top: -40px;right: -40px;background-color: #4994cd;height: 360px;
+  padding: 14px 22px;color: white;font-size: 14px; }
+@media (min-width: 1220px) {
+  #idz-footer  .uk-container { padding: 0; }
+}
 </style>
